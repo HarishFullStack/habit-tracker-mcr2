@@ -42,3 +42,29 @@
 }
 
 
+.react-time-picker{
+  width: 100%;
+}
+
+.react-time-picker__inputGroup{
+  padding: 0.25rem;
+}
+
+.react-time-picker__wrapper{
+  border: none !important;
+}
+
+.react-datepicker-wrapper{
+  width: 100%;
+}
+
+.card{
+  width: 18rem;
+  height: 10rem;
+  cursor: pointer;
+  background-color: #ADD8E6;
+}
+
+.card h4{
+  text-align: left;
+}
