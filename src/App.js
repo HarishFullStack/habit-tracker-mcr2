@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import { Modal } from 'react-bootstrap';
@@ -15,6 +14,7 @@ function App() {
   }
 
   const handleAddHabit = () => {
+    setHabits([...habits])
   }
 
   return (
@@ -62,6 +62,12 @@ function App() {
                     <button type="button" className="btn btn-primary" onClick={handleAddHabit}>Add</button>
                 </Modal.Footer>
             </Modal>
+
+            <div>{habits.map((habit) => {
+              return(
+                <p></p>
+              )
+            })}</div>
     </div>
   );
 }
